@@ -1,24 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Create Account</title>
-    <link rel="stylesheet" href="registation.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="registration.css">
 </head>
 <body>
 
-<div class="form-box">
-    <h1>Create Account</h1>
-    <p>Sign up to get started</p>
+<div class="auth-container">
+    <div class="auth-card">
+        <h1>Create Account</h1>
+        <p class="subtitle">Please fill in your details</p>
 
-    <form>
-        <input type="text" placeholder="Full Name">
-        <input type="email" placeholder="Email Address">
-        <input type="password" placeholder="Password">
-        <input type="password" placeholder="Confirm Password">
-        <button>Create Account</button>
-    </form>
+        <form>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="password" placeholder="Password" required>
+            <input type="password" placeholder="Confirm Password" required>
+
+            <button type="submit">Create Account</button>
+        </form>
+    </div>
 </div>
 
+<script src="script.js"></script>
 </body>
 </html>
